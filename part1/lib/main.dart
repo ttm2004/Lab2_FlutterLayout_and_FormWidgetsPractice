@@ -33,8 +33,11 @@ class LayoutApp extends StatelessWidget {
   //       ),
   //       const SizedBox(height: 20),
   //       Stack(
+        
   //         // alignment: Alignment.center,
+          
   //         alignment: Alignment.topLeft, //Tark 2 Stack -> topleft alignment
+          
   //           children: [
   //           Container(
   //             width: 300,
@@ -51,7 +54,6 @@ class LayoutApp extends StatelessWidget {
   //     ],
   //   );
   // }
-
   // Task 3: Add padding to the entire Column
   @override
   Widget build(BuildContext context) {
@@ -70,7 +72,6 @@ class LayoutApp extends StatelessWidget {
             children: [
               // for (var color in [Colors.red, Colors.green, Colors.blue])
               //   Container(width: 100, height: 100, color: color),
-
 
               // Task 4: Use a list of colors to generate the containers in the Row
               Row(
