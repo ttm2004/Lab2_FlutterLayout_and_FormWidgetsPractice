@@ -38,7 +38,7 @@ class LayoutApp extends StatelessWidget {
         const SizedBox(height: 20),
         Stack(
           // alignment: Alignment.center,
-          alignment: Alignment.topLeft, //Tark 2 Stack -> topleft
+          alignment: Alignment.topLeft, //Tark 2 Stack -> topleft alignment
             children: [
             Container(
               width: 300,
