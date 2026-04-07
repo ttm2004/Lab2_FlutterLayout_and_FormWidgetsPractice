@@ -68,8 +68,19 @@ class LayoutApp extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              for (var color in [Colors.red, Colors.green, Colors.blue])
-                Container(width: 100, height: 100, color: color),
+              // for (var color in [Colors.red, Colors.green, Colors.blue])
+              //   Container(width: 100, height: 100, color: color),
+
+
+              // Task 4: Use a list of colors to generate the containers in the Row
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(width: 100, height: 100, color: Colors.red),
+                  Container(width: 100, height: 100, color: Colors.green),
+                  Container(width: 100, height: 100, color: Colors.blue),
+                ],
+              ),
             ],
           ),
           const SizedBox(height: 20),
